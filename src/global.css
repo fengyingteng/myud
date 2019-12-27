@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+
+body :global(.ant-menu-inline .ant-menu-submenu .ant-menu-submenu-title) {
+  height: 32px !important;
+  line-height: 32px !important;
+}
+
+body :global(.ant-menu-item) {
+  background: #48576a;
+}
+
+body :global(.ant-menu-item-active) {
+  background: rgb(45, 50, 59) !important;
+}
